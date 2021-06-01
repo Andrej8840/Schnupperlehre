@@ -27,4 +27,6 @@ monitorVolume(){
     done
 }
 
-monitorVolume
+if [ "$1" != "test" ]; then
+    monitorVolume
+fi
